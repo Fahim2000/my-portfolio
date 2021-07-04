@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .flexible-container {
   display: flex;
+  padding: 2%;
 }
 
 .half-width {
@@ -35,6 +37,67 @@ body {
   margin-top: -8px;
 }
 
+.dream-big h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.dream-big h3 {
+  font-size: 23px;
+}
+
+.dream-big p {
+  font-size: 18px;
+  margin-bottom: 37px;
+}
+
+#experience {
+  font-size: 55px;
+  margin-bottom: 25px;
+}
+
+.dream-big {
+  background-image: url("./images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area h3 {
+  font-size: 23px;
+}
+
+
+.experience-area{
+  background-image: url('./images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.experience-items h1 {
+  font-size: 50px;
+}
+
+.experience-items {
+  width: 35%;
+  padding: 3%;
+  box-shadow: 10px 10px 40px grey;
+  margin: 2%;
+}
+
+#baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#full-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+  width: 35%;
+  padding: 3%;
+}
+
 .button {
   text-decoration: none;
   padding: 16px 32px;
@@ -47,5 +110,9 @@ body {
   );
   color: white;
   border-radius: 7px;
- 
+}
+
+
+footer p{
+  text-align: center;
 }
